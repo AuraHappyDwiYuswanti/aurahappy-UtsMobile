@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:src="@drawable/pngegg__1_"/>
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Dear, Welcome To MidHang House"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="#ff77ff"
+        android:fontFamily="@font/chewy"/>
+
+    <TextView
+        android:id="@+id/slogan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chewy"
+        android:text="Sign In to continue"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="8dp"
+        android:hint="Username"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_lock_open_24"
+        android:drawablePadding="8dp"
+        android:hint="Password"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="Forget Password?"
+        android:layout_gravity="right"
+        android:elevation="0dp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#4b0150"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="New User? SIGN UP"
+        android:layout_gravity="right"
+        android:elevation="0dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/chewy"
+        android:textColor="#000"
+        />
+
+</LinearLayout>
